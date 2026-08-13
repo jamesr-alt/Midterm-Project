@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Boston Art Gallery</title>
+  <link rel="icon" type="image/xcon" href="images (1).png">
+  <style>
+    a:link {
+font-size: medium;
+color: darkseagreen;
+border: 2px solid black;
+background-color: honeydew;
+padding-left: 3px;
+padding-right: 3px;
+padding-bottom: 3px;
+    }
+    .image-link {
+      font-size: 0px !important;
+color: none !important;
+border: 0px solid black !important;
+background-color: white !important;
+padding-left: 0px !important;
+padding-right: 0px !important;
+padding-bottom: 0px !important;
+    }
+    a:visited{
+font-size: medium;
+color: darkslateblue;
+    }
+    a:hover {
+font-size: medium;
+color: darkslategray;
+    }
+    a:active {
+font-size: medium;
+color:dimgray;
+    }
+    .gallery {
+          display: flex;
+          justify-content: space-around;
+          flex-wrap: wrap;
+          gap: 20px;
+    }
+    .gallery-item {
+text-align: center;
+    }
+    .gallery-item img {
+      width: 350px;
+          height: 230px;
+          object-fit: cover;
+          border: 3px solid;
+          border-radius: 10px;
+          margin-right: 20px;
+          margin-bottom: 40;
+    }
+    .gallery-item img:hover{
+      transform: scale(1.1);
+      transition: 0.8s
+    }
+    table, th, td {
+      background-color: aliceblue;
+      border: 2px solid black;
+      border-collapse: collapse;
+      padding: 30px;
+      font-size: large;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+  </style>
+</head>
+<body>
+  <header>
+  <h1 style="font-size: 40px;text-align: center ;color: rgb(19, 83, 139);; border: 2px solid black;border-radius: 100px;font-family: 'Trebuchet MS';padding: 30px;background-color: bisque;">&#9399oston &#9398rt &#9404allery</h1>
+  </header>
+  <section>
+    <div class="link"float:left>
+<a href="https://www.mfa.org/" target="_blank">MFA</a>
+<br>
+<br>
+<a href="https://www.gardnermuseum.org/" target="_blank">Isabella Stewart Gardner</a> 
+<br>
+<br>
+<a href="https://mcmullenmuseum.bc.edu/" target="_blank">McMullen Museum</a>
+<br>
+<br>
+<a href="https://www.icaboston.org/" target="_blank">ICA</a>
+    </div>
+    <div>
+      <h2 style="font-family:Arial, Helvetica, sans-serif;text-align: center;">Our Displays</h2>
+      <p style="font-family:Arial, Helvetica, sans-serif ; text-align: center;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem voluptatibus veniam laboriosam ut officiis exercitationem unde! Molestias aut veritatis odio distinctio hic mollitia non, ipsa, aperiam repellat rerum nobis corporis. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum fugit perferendis tempora corporis ipsum voluptatum, officiis recusandae dolore voluptatibus. Dolore illo nam enim praesentium aperiam veniam perspiciatis. Sit, laudantium odio. Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident maiores dolorem pariatur tempora soluta eaque doloribus, molestias asperiores explicabo quod saepe nesciunt, facilis, magni esse ad commodi similique ipsam sunt.</p>
+    </div>
+    <br>
+  </section>
+  <section>
+  <div class="gallery">
+     <div class="gallery-item">
+       <a class="image-link" href="https://www.mfa.org/gallery/plein-air" target="_blank">
+        <img src="SC202265_4x3.jpg" alt="pondpainting">
+       </a>
+       <a class="image-link" href="https://www.gardnermuseum.org/experience/collection/10955" target="_blank">
+        <img src="007557.jpg" alt="portrait">
+       </a>
+       <a class="image-link" href="https://mcmullenmuseum.bc.edu/shadows-and-light/#mwl-9061" target="_blank">
+        <img src="Screenshot 2026-08-06 122804.png" alt="landscape">
+       </a>
+       <a class="image-link" href="https://www.icaboston.org/articles/ica-boston-unveils-a-monumental-installation-of-paintings-by-artist-cynthia-daignault/" target="_blank">
+        <img src="Screenshot 2026-08-06 123617.png" alt="landscapewinter">
+       </a>
+     </div>
+  </div>
+</section>
+<section>
+  <section>
+    <div>
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif;">Ticket Prices</h2>
+    <br>
+    <table style="text-align: center; margin: 0 auto;">
+      <tr>      
+        <th>~~~</th>
+        <th>Adults</th>
+        <th>Children</th>
+        <th>Seniors</th>
+      </tr>
+      <tr>
+        <th>Weekdays</th>
+        <td>$15.00</td>
+        <td>$7.00</td>
+        <td>$7.00</td>
+      </tr>
+      <tr>
+        <th>Weekends</th>
+        <td>$21.00</td>
+        <td>$9.00</td>
+        <td>$9.00</td>
+      </tr>
+    </table>
+  </div>
+  </section>
+  <br>
+  <section>
+    <h2 style="text-align: center; font-family: Arial, Helvetica, sans-serif">Plan Your Trip:</h2>
+    <br>
+    <img style="border:2px solid black; border-radius: 10px;display:block; margin-left: auto; margin-right: auto;"src="Survey-Map-1-lg.jpg" alt="MBTA Map" width="30%">
+<div style="text-align: center">
+  <br>
+  <a style="border: none; background-color: white;" href="https://www.google.com/maps/dir//Benjamin+Franklin+Cummings+Institute+of+Technology,+1011+Harrison+Ave,+Roxbury,+MA+02119/@42.3314361,-71.0835176,17z/data=!4m9!4m8!1m0!1m5!1m1!1s0x89e37a7264044639:0x54c81339506044ac!2m2!1d-71.0806608!2d42.3316526!3e3?entry=ttu&g_ep=EgoyMDI2MDgwMy4wIKXMDSoASAFQAw%3D%3D" target="_blank">Google Maps Directions</a></div>
+  </section>
+<footer style="color:cornflowerblue">
+  <br><br><br><br><br><br>
+  <a style="border: none; background-color: white;" href="mailto:jrodriguez6876@franklincummings.edu">Email us!</a>
+  <br>
+  <br>
+  &copy; Copyright 2026
+  <br>
+  <br>
+  <a style="border: none; background-color: white;" href="#top">Back to the Top</a>
+</footer>
+</section>
+</body>
+</html>
